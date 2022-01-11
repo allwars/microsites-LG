@@ -1,0 +1,730 @@
+/*** Custom CSS for microsites ***/
+@import url(https://wwwstg.lg.com/es/posventa/css/css/bootstrap.css);
+html {
+  scroll-behavior: smooth;
+}
+
+body.microsite .fluid.container {
+  margin-top: 2rem;
+}
+
+body.microsite p {
+  font-size: 16px;
+}
+
+body.microsite b,
+body.microsite strong {
+  font-weight: bolder;
+}
+
+body.microsite h1 {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 32px;
+}
+
+body.microsite h2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 24px;
+  color: #A50034;
+  font-weight: 500;
+}
+
+body.microsite h2 button {
+  color: #A50034;
+  font-weight: bold;
+}
+
+body.microsite h2 button:hover,
+body.microsite h2 button:focus + .btn, body.microsite h2 button:focus {
+  color: #A50034;
+  -webkit-box-shadow: 0 0 0 0.05rem #a50034 !important;
+          box-shadow: 0 0 0 0.05rem #a50034 !important;
+  outline: 0;
+}
+
+body.microsite h3 {
+  font-size: 20px;
+  color: #5b5b5b;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+body.microsite .ocultardiv {
+  display: none;
+}
+
+body.microsite .iframefooter {
+  display: none;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-so {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-so .card {
+  border-top-width: 1px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-so.show {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 100px;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-nav {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-nav .card {
+  border-top-width: 1px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp.collapse-nav.show {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: auto;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp .mpo-desc ul {
+  list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+  padding-left: 12px;
+}
+
+body.microsite .mpo-type-basic .mpo-desc-grp .mpo-desc ul li {
+  font-size: 16px;
+  color: #5d5c5c;
+  margin: 10px 0px;
+  text-align: left;
+  list-style: inherit;
+  padding-left: 12px;
+}
+
+body.microsite ol li {
+  list-style: decimal;
+}
+
+body.microsite ol li ul li {
+  list-style: inherit;
+}
+
+body.microsite ul {
+  list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+  padding-left: 12px;
+}
+
+body.microsite ul li {
+  font-size: 16px;
+  color: #5d5c5c;
+  margin: 10px 0px;
+  text-align: left;
+  list-style: AUTO;
+  padding-left: 12px;
+}
+
+body.microsite .table thead th {
+  text-align: center;
+}
+
+body.microsite .table tr {
+  text-align: center;
+}
+
+body.microsite .mpo-container .mpo-module {
+  padding: 1px 15px;
+}
+
+body.microsite .mpo-container ol,
+body.microsite .mpo-container ul {
+  list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+  padding-left: 12px;
+}
+
+body.microsite .mpo-container ol.sin_punto,
+body.microsite .mpo-container ul.sin_punto {
+  list-style-image: none;
+  list-style: auto;
+}
+
+body.microsite .mpo-container ol li,
+body.microsite .mpo-container ul li {
+  font-size: 16px;
+  color: #5d5c5c;
+  margin: 10px 0px;
+  text-align: left;
+  list-style: inherit;
+  padding-left: 12px;
+}
+
+body.microsite .row-fluid {
+  width: 100%;
+  margin-bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*
+
+        & .span12 {
+            width: calc((100% * 12) / 12);
+        }
+
+        & .span11 {
+            width: 91.66666667%;
+        }
+
+        & .span10 {
+            width: 83.33333333%;
+        }
+
+        & .span9 {
+            width: 75%;
+        }
+
+        & .span8 {
+            width: 66.66666667%;
+        }
+
+        & .span7 {
+            width: 58.33333333%;
+        }
+
+        & .span6 {
+            width: 50%;
+        }
+
+        & .span5 {
+            width: 41.66666667%;
+        }
+
+        & .span4 {
+            width: 33.33333333%;
+        }
+
+        & .span3 {
+            width: 25%;
+        }
+
+        & .span2 {
+            width: 16.66666667%;
+        }
+
+        & .span1 {
+            width: 8.333333333%;
+        }
+        */
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body.microsite .row-fluid::after {
+  display: table;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+body.microsite .row-fluid::before {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+body.microsite .row-fluid .pic {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .pic {
+    margin-bottom: 0;
+  }
+}
+
+body.microsite .row-fluid .pic .text-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body.microsite .row-fluid .pic .text-img .loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.microsite .row-fluid .pic .text-img .loader img {
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .pic .text-img .loader img {
+    margin-top: 2rem;
+  }
+}
+
+body.microsite .row-fluid .pic .text-img .adjust {
+  padding: 1rem 4rem;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .pic .text-img .adjust {
+    padding: 1rem 1rem;
+  }
+}
+
+body.microsite .row-fluid [class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 0%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.microsite .row-fluid [class*="span"].steps {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body.microsite .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+
+body.microsite .row-fluid .controls-row [class*="span"] + [class*="span"] {
+  margin-left: 0;
+}
+
+body.microsite .row-fluid .span1 {
+  width: calc((1*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span1.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span1 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span2 {
+  width: calc((2*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span2.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span2 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span3 {
+  width: calc((3*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span3.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span3 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span4 {
+  width: calc((4*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span4.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span4 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span5 {
+  width: calc((5*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span5.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span5 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span6 {
+  width: calc((6*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span6.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span6 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span7 {
+  width: calc((7*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span7.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span7 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span8 {
+  width: calc((8*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span8.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span8 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span9 {
+  width: calc((9*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span9.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span9 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span10 {
+  width: calc((10*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span10.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span10 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span11 {
+  width: calc((11*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span11.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span11 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite .row-fluid .span12 {
+  width: calc((12*100%)/12);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.microsite .row-fluid .span12.down {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body.microsite .row-fluid .span12 {
+    width: calc((12*100%)/12);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+body.microsite div.mpo-fix-navi {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  text-transform: none;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 999;
+}
+
+body.microsite div.mpo-fix-navi a {
+  color: #000000;
+  text-decoration: none;
+}
+
+body.microsite div.mpo-fix-navi a.current {
+  text-decoration: underline;
+}
+
+body.microsite div.mpo-fix-navi ul {
+  margin: 0 auto !important;
+  max-width: 960px;
+  list-style-type: none;
+  height: 40px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body.microsite div.mpo-fix-navi ul.nav-content {
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body.microsite div.mpo-fix-navi ul.nav-content li {
+  margin: 1rem;
+}
+
+body.microsite div.mpo-fix-navi ul li {
+  width: auto;
+  line-height: 100% !important;
+  max-width: 100%;
+  vertical-align: middle;
+  height: 40px;
+  padding: 0px;
+  margin-bottom: 0px !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.microsite div.mpo-fix-navi ul li.current {
+  color: #b50133 !important;
+}
+
+body.microsite .att-cli-img img {
+  width: 100px;
+}
+
+body.microsite a.link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+body.microsite a.link.link-sindecoration {
+  text-decoration: none;
+}
+
+body.microsite a.link.link-sindecoration:hover {
+  text-decoration: underline;
+}
+
+body.microsite img {
+  width: 100%;
+}
+
+body.microsite img.list-img-sm {
+  width: 6%;
+}
+
+body.microsite .mpo-desc.sub-tittle {
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.microsite .icono {
+  width: 40px;
+  height: 40px;
+}
+
+body.microsite .icono_1 {
+  background: url("/es/mp-resources/images/posventa/microsites/pc/4.PNG");
+}
+
+body.microsite .icono_2 {
+  background: url("/es/mp-resources/images/posventa/microsites/pc/5.PNG");
+}
+
+body.microsite .fade img {
+  width: 40%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body.microsite .fade img {
+    width: 80%;
+    margin-top: 5rem;
+  }
+}
+
+body.microsite .elements-guide {
+  height: 270px;
+}
+
+body.microsite .elements-guide a.img {
+  max-height: 180px;
+  height: 180px;
+}
+
+body.microsite .acordeon-sin-bordes .card {
+  border: 0;
+}
+/*# sourceMappingURL=stylesheet.css.map */

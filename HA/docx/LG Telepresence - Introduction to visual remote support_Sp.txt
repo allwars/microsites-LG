@@ -1,0 +1,118 @@
+1
+00:00:00,010 --> 00:00:02,310
+Introducción a la aplicación LG Telepresence
+
+
+2
+00:00:02,940 --> 00:00:06,109
+Hola, a continuación hablaremos sobre la herramienta LG telepresence.
+
+3
+00:00:07,023 --> 00:00:11,855
+Algunas veces, es bastante difícil describir en una simple llamada, algún problema que tengamos con nuestro producto LG,
+
+4
+00:00:12,186 --> 00:00:13,862
+por lo que no sería conveniente  
+
+5
+00:00:14,043 --> 00:00:18,137
+que un agente de nuestro servicio de Atención al cliente, pudiese visualizar el problema como si estuviese viendolo por si mismo en tu casa, trabajo.. etc.
+
+6
+00:00:18,293 --> 00:00:20,060
+LG telepresence te ofrece esa posibilidad,
+
+7
+00:00:20,215 --> 00:00:23,250
+nuestros clientes pueden obtener soporte visual utilizando la cámara de tu teléfono móvil.
+
+8
+00:00:23,483 --> 00:00:25,024
+Veamos como funciona 
+
+9
+00:00:25,205 --> 00:00:26,300
+Configurando la conexión
+
+10
+00:00:26,679 --> 00:00:28,484
+Primero debes llamar a nuestro servicio de Atención al Cliente
+
+11
+00:00:28,742 --> 00:00:30,527
+y si deseas que nuestros agentes vean el problema que estás teniendo en tu equipo,
+
+12
+00:00:30,709 --> 00:00:33,237
+te enviará un SMS con un enlace. 
+
+13
+00:00:38,860 --> 00:00:41,138
+Se deberá abrir el mensaje recibido,
+
+14
+00:00:41,293 --> 00:00:44,510
+luego pinchar sobre el enlace
+
+15
+00:00:46,563 --> 00:00:49,196
+y por último aceptar los términos y condiciones (si se desea),
+
+16
+00:00:51,736 --> 00:00:54,689
+una vez hecho esto, la conexión se establece automáticamente.
+
+17
+00:00:55,715 --> 00:00:58,596
+Ya con la conexión establecida, podremos:
+
+18
+00:00:59,133 --> 00:01:03,819
+Chatear con el cliente y dibujar en la pantalla de tu móvil para resaltar algún problema que detecte,
+
+19
+00:01:05,870 --> 00:01:09,398
+además podemos guiar a los clientes para resolver los problemas de su equipo por ellos mismos.
+
+20
+00:01:10,863 --> 00:01:15,000
+Es importante recordar, que nuestros agentes solo pueden visualizar lo mismo que se muestra en la pantalla del móvil.
+
+21
+00:01:17,091 --> 00:01:20,155
+Con esta herramienta, tenemos dos posibilidades:
+
+22
+00:01:20,155 --> 00:01:25,537
+1. Que nuestros agentes le dan una solución para su caso de manera remota y así se evita que un técnico vaya a la casa del cliente a reparar el equipo, o
+
+23
+00:01:25,537 --> 00:01:30,521
+2. Si el problema no se puede resolver, el agente puede utilizar lo que ha visto, 
+
+24
+00:01:31,021 --> 00:01:33,963
+para poder explicarle el fallo a los técnicos y así dar una solución más rápida y mejor. 
+
+
+25
+00:01:34,428 --> 00:01:38,325
+Recuerda que el usuario siempre tiene el control de la conexión,
+
+26
+00:01:38,374 --> 00:01:41,385
+con solo pinchar sobre la "X" se puede terminar con la conexión.
+
+27
+00:01:42,215 --> 00:01:45,101
+Por lo que si deseas utilizar esta herramienta, solo debes contactar con nuestro servicio de Atención al Cliente 
+
+28
+00:01:45,102 --> 00:01:48,102
+y pedir la conexión mediante la aplicación LG Telepresence para poder el problema e intentar darte una solución remota.
+
+28
+00:01:48,540 --> 00:01:49,487
+Gracias por vernos!
+
