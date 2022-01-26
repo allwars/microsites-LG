@@ -135,18 +135,6 @@
 										</div>
 									</div>
 								</div>
-								<div class="span12 mpo-area ">
-									<div class="mpo-module " data-padding-top="10">
-										<div class="mpo-type-image mpo-media d-flex">
-											<span class="loader"><img alt="Panel de control del frigorifico"
-													src="/es/mp-resources/images/posventa/guias-y-soluciones/frigorifico/como-usar-el-panel-de-control/Global_Pollux_2016_Gallery_Small_09_1.png" /></span>
-											<span class="loader"><img alt="Panel de control del frigorifico"
-													src="/es/mp-resources/images/posventa/guias-y-soluciones/frigorifico/como-usar-el-panel-de-control/Global_Pollux_2016_Gallery_Small_09_2.png" /></span>
-											<span class="loader"><img alt="Panel de control del frigorifico"
-													src="/es/mp-resources/images/posventa/guias-y-soluciones/frigorifico/como-usar-el-panel-de-control/Global_Pollux_2016_Gallery_Small_09_3.png" /></span>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 						<div class="row-wrap">

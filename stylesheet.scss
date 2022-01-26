@@ -2,301 +2,285 @@
 @import url(https://wwwstg.lg.com/es/posventa/css/css/bootstrap.css);
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body.microsite {
+  .fluid.container {
+    margin-top: 2rem;
+  }
 
-    .fluid.container {
-        margin-top: 2rem;
+  p {
+    font-size: 16px;
+  }
+
+  b,
+  strong {
+    font-weight: bolder;
+  }
+
+  h1 {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 32px;
+  }
+
+  h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 24px;
+    color: #a50034;
+    font-weight: 500;
+
+    button {
+      color: #a50034;
+      font-weight: bold;
+
+      &:hover,
+      &:focus + .btn,
+      &:focus {
+        color: #a50034;
+        box-shadow: 0 0 0 0.05rem #a50034 !important;
+        outline: 0;
+      }
     }
+  }
 
-    p {
-        font-size: 16px;
-    }
+  h3 {
+    font-size: 20px;
+    color: #5b5b5b;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
 
-    b,
-    strong {
-        font-weight: bolder
-    }
+  .ocultardiv {
+    display: none;
+  }
 
-    h1 {
-        border-bottom: 1px solid #000000;
-        padding-bottom: 15px;
-        margin-bottom: 25px;
-        width: 100%;
-        font-size: 32px;
-    }
+  .iframefooter {
+    display: none;
+  }
 
-    h2 {
-        padding-top: 2%;
-        padding-bottom: 2%;
-        font-size: 24px;
-        color: #A50034;
-        font-weight: 500;
+  .mpo-type-basic {
+    .mpo-desc-grp {
+      &.collapse-so {
+        transition: all 0.5s ease;
+        height: 0;
+        overflow: hidden;
 
-        button {
-            color: #A50034;
-            font-weight: bold;
-
-            &:hover,
-            &:focus+.btn,
-            &:focus {
-                color: #A50034;
-                box-shadow: 0 0 0 0.05rem #a50034 !important;
-                outline: 0;
-            }
+        .card {
+          border-top-width: 1px;
+          border-right-width: 0;
+          border-bottom-width: 0;
+          border-left-width: 0;
         }
-    }
 
-    h3 {
-        font-size: 20px;
-        color: #5b5b5b;
-        font-weight: 600;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-    }
-
-    .ocultardiv {
-        display: none;
-    }
-
-    .iframefooter {
-        display: none;
-    }
-
-    .mpo-type-basic {
-
-        .mpo-desc-grp {
-            &.collapse-so {
-                transition: all 0.5s ease;
-                height: 0;
-                overflow: hidden;
-
-                .card {
-                    border-top-width: 1px;
-                    border-right-width: 0;
-                    border-bottom-width: 0;
-                    border-left-width: 0;
-                }
-
-                &.show {
-                    transition: all 0.5s ease;
-                    height: 100px;
-                }
-            }
-
-            &.collapse-nav {
-                transition: all 0.5s ease;
-                height: 0;
-                overflow: hidden;
-
-                .card {
-                    border-top-width: 1px;
-                    border-right-width: 0;
-                    border-bottom-width: 0;
-                    border-left-width: 0;
-                }
-
-                &.show {
-                    transition: all 0.5s ease;
-                    height: auto;
-                }
-            }
-
-            .mpo-desc {
-
-                ul {
-                    list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
-                    padding-left: 12px;
-
-                    li {
-                        font-size: 16px;
-                        color: #5d5c5c;
-                        margin: 10px 0px;
-                        text-align: left;
-                        list-style: inherit;
-                        padding-left: 12px;
-
-                    }
-                }
-
-            }
-
+        &.show {
+          transition: all 0.5s ease;
+          height: 100px;
         }
-    }
+      }
 
+      &.collapse-nav {
+        transition: all 0.5s ease;
+        height: 0;
+        overflow: hidden;
 
-    ol {
-        li {
-            list-style: decimal;
-            ul{
-                li{
-                    list-style: inherit;
-                }
-            }
+        .card {
+          border-top-width: 1px;
+          border-right-width: 0;
+          border-bottom-width: 0;
+          border-left-width: 0;
         }
-    }
 
-    ul {
-        list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
-        padding-left: 12px;
+        &.show {
+          transition: all 0.5s ease;
+          height: auto;
+        }
+      }
 
-        li {
+      .mpo-desc {
+        ul {
+          list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+          padding-left: 12px;
+
+          li {
             font-size: 16px;
             color: #5d5c5c;
             margin: 10px 0px;
             text-align: left;
-            list-style: AUTO;
+            list-style: inherit;
             padding-left: 12px;
-
+          }
         }
+      }
+    }
+  }
+
+  ol {
+    li {
+      list-style: decimal;
+      ul {
+        li {
+          list-style: inherit;
+        }
+      }
+    }
+  }
+
+  ul {
+    &.lista {
+      list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+      padding-left: 40px;
+
+      li {
+        font-size: 16px;
+        color: #5d5c5c;
+        margin: 10px 0px;
+        text-align: left;
+        list-style: inherit;
+        padding-left: 12px;
+      }
+    }
+  }
+
+  .table {
+    thead th {
+      text-align: center;
+    }
+    tr {
+      text-align: center;
+    }
+  }
+
+  .mpo-container {
+    .mpo-module {
+      padding: 1px 15px;
     }
 
-    .table {
-        thead th {
-            text-align: center;
-        }
-        tr{
-            text-align: center;
-        }
+    ol,
+    ul {
+      list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+      padding-left: 12px;
+
+      &.sin_punto {
+        list-style-image: none;
+        list-style: auto;
+      }
+
+      li {
+        font-size: 16px;
+        color: #5d5c5c;
+        margin: 10px 0px;
+        text-align: left;
+        list-style: inherit;
+        padding-left: 12px;
+      }
+    }
+  }
+
+  .row-fluid {
+    width: 100%;
+    margin-bottom: 3%;
+    display: flex;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
     }
 
-    .mpo-container {
-        .mpo-module {
-            padding: 1px 15px;
-        }
-
-        ol,
-        ul {
-            list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
-            padding-left: 12px;
-
-            &.sin_punto {
-                list-style-image: none;
-                list-style: auto;
-            }
-
-            li {
-                font-size: 16px;
-                color: #5d5c5c;
-                margin: 10px 0px;
-                text-align: left;
-                list-style: inherit;
-                padding-left: 12px;
-            }
-        }
+    &.down {
+      flex-direction: column;
     }
 
-    .row-fluid {
-        width: 100%;
-        margin-bottom: 3%;
+    &::after {
+      display: table;
+      line-height: 0;
+      content: "";
+      clear: both;
+    }
+
+    &::before {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+
+    & .pic {
+      margin-bottom: 3rem;
+
+      @media (max-width: 768px) {
+        margin-bottom: 0;
+      }
+
+      .text-img {
         display: flex;
+        flex-direction: column;
 
-        @media (max-width: 768px) {
-            flex-wrap: wrap;
-        }
+        .loader {
+          display: flex;
+          justify-content: center;
 
-        &.down {
-            flex-direction: column;
-
-        }
-
-        &::after {
-            display: table;
-            line-height: 0;
-            content: "";
-            clear: both;
-        }
-
-        &::before {
-            display: table;
-            line-height: 0;
-            content: "";
-
-        }
-
-        & .pic {
-            margin-bottom: 3rem;
+          img {
+            width: 65%;
 
             @media (max-width: 768px) {
-                margin-bottom: 0;
+              margin-top: 2rem;
             }
-
-            .text-img {
-                display: flex;
-                flex-direction: column;
-
-                .loader {
-                    display: flex;
-                    justify-content: center;
-
-                    img {
-                        width: 65%;
-
-                        @media (max-width: 768px) {
-                            margin-top: 2rem;
-                        }
-                    }
-
-                }
-
-                .adjust {
-                    padding: 1rem 4rem;
-
-                    @media (max-width: 768px) {
-                        padding: 1rem 1rem;
-                    }
-                }
-
-            }
-
+          }
         }
 
-        & [class*="span"] {
-            display: block;
-            width: 100%;
-            min-height: 30px;
-            margin-left: 0%;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
+        .adjust {
+          padding: 1rem 4rem;
 
-            &.steps {
-                flex-wrap: wrap;
+          @media (max-width: 768px) {
+            padding: 1rem 1rem;
+          }
+        }
+      }
+    }
 
+    & [class*="span"] {
+      display: block;
+      width: 100%;
+      min-height: 30px;
+      margin-left: 0%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
 
-            }
+      &.steps {
+        flex-wrap: wrap;
+      }
 
+      &:first-child {
+        margin-left: 0;
+      }
+    }
 
+    & .controls-row [class*="span"] + [class*="span"] {
+      margin-left: 0;
+    }
 
-            &:first-child {
-                margin-left: 0;
-            }
+    @for $i from 1 through 12 {
+      & .span#{$i} {
+        width: calc((#{$i}* 100%) / 12);
+        display: flex;
+
+        &.down {
+          flex-direction: column;
         }
 
-        & .controls-row [class*="span"]+[class*="span"] {
-            margin-left: 0;
+        @media (max-width: 768px) {
+          width: calc((12 * 100%) / 12);
+          flex-wrap: wrap;
         }
+      }
+    }
 
-        @for $i from 1 through 12 {
-            & .span#{$i} {
-
-                width: calc((#{$i}*100%)/12);
-                display: flex;
-
-                &.down {
-                    flex-direction: column;
-                }
-
-                @media (max-width: 768px) {
-                    width: calc((12*100%)/12);
-                    flex-wrap: wrap;
-                }
-            }
-        }
-
-        /*
+    /*
 
         & .span12 {
             width: calc((100% * 12) / 12);
@@ -346,147 +330,135 @@ body.microsite {
             width: 8.333333333%;
         }
         */
+  }
 
-    }
+  div.mpo-fix-navi {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    text-transform: none;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
 
-    div.mpo-fix-navi {
-        position: relative;
-        left: 0px;
-        width: 100%;
-        text-transform: none;
-        margin: 0 auto;
-        text-align: center;
-        z-index: 999;
+    a {
+      color: #000000;
+      text-decoration: none;
 
-        a {
-            color: #000000;
-            text-decoration: none;
-
-            &.current {
-                text-decoration: underline;
-            }
-        }
-
-        ul {
-            margin: 0 auto !important;
-            max-width: 960px;
-            list-style-type: none;
-            height: 40px;
-            text-align: center;
-            clear: both;
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-
-            &.nav-content {
-
-                height: auto;
-                justify-content: center;
-                flex-wrap: wrap;
-
-                li {
-                    margin: 1rem;
-                }
-            }
-
-
-            & li {
-
-                width: auto;
-                line-height: 100% !important;
-                max-width: 100%;
-                vertical-align: middle;
-                height: 40px;
-                padding: 0px;
-                margin-bottom: 0px !important;
-                font-size: 16px;
-                font-weight: bold;
-
-                &.current {
-                    color: #b50133 !important;
-                }
-            }
-        }
-    }
-
-    .att-cli-img img {
-        width: 100px;
-    }
-
-    a.link {
+      &.current {
         text-decoration: underline;
-        color: #000000;
-
-        &.link-sindecoration {
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+      }
     }
 
+    ul {
+      margin: 0 auto !important;
+      max-width: 960px;
+      list-style-type: none;
+      height: 40px;
+      text-align: center;
+      clear: both;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
 
+      &.nav-content {
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
 
-    img {
-        width: 100%;
-
-        &.list-img-sm {
-            width: 6%;
+        li {
+          margin: 1rem;
         }
-    }
+      }
 
-    .mpo-desc {
-        &.sub-tittle {
-            height: 4rem;
-            display: flex;
-            align-items: center;
-        }
-    }
-
-    .icono {
-        width: 40px;
+      & li {
+        width: auto;
+        line-height: 100% !important;
+        max-width: 100%;
+        vertical-align: middle;
         height: 40px;
+        padding: 0px;
+        margin-bottom: 0px !important;
+        font-size: 16px;
+        font-weight: bold;
 
-        &_1 {
-            background: url("/es/mp-resources/images/posventa/microsites/pc/4.PNG");
-
+        &.current {
+          color: #b50133 !important;
         }
+      }
+    }
+  }
 
-        &_2 {
-            background: url("/es/mp-resources/images/posventa/microsites/pc/5.PNG");
-        }
+  .att-cli-img img {
+    width: 100px;
+  }
+
+  a.link {
+    text-decoration: underline;
+    color: #000000;
+
+    &.link-sindecoration {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+
+    &.list-img-sm {
+      width: 6%;
+    }
+  }
+
+  .mpo-desc {
+    &.sub-tittle {
+      height: 4rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .icono {
+    width: 40px;
+    height: 40px;
+
+    &_1 {
+      background: url("/es/mp-resources/images/posventa/microsites/pc/4.PNG");
     }
 
-
-    .fade {
-
-        img {
-            width: 40%;
-            cursor: pointer;
-
-            @media (max-width: 768px) {
-                width: 80%;
-                margin-top: 5rem;
-            }
-        }
+    &_2 {
+      background: url("/es/mp-resources/images/posventa/microsites/pc/5.PNG");
     }
+  }
 
-    .elements-guide {
-        height: 270px;
+  .fade {
+    img {
+      width: 40%;
+      cursor: pointer;
 
-        a.img {
-            max-height: 180px;
-            height: 180px;
-        }
-
+      @media (max-width: 768px) {
+        width: 80%;
+        margin-top: 5rem;
+      }
     }
+  }
 
-    .acordeon-sin-bordes {
-        .card {
-            border: 0;
-        }
+  .elements-guide {
+    height: 270px;
+
+    a.img {
+      max-height: 180px;
+      height: 180px;
     }
+  }
 
-
+  .acordeon-sin-bordes {
+    .card {
+      border: 0;
+    }
+  }
 }

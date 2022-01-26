@@ -29,18 +29,18 @@ body.microsite h2 {
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 24px;
-  color: #A50034;
+  color: #a50034;
   font-weight: 500;
 }
 
 body.microsite h2 button {
-  color: #A50034;
+  color: #a50034;
   font-weight: bold;
 }
 
 body.microsite h2 button:hover,
 body.microsite h2 button:focus + .btn, body.microsite h2 button:focus {
-  color: #A50034;
+  color: #a50034;
   -webkit-box-shadow: 0 0 0 0.05rem #a50034 !important;
           box-shadow: 0 0 0 0.05rem #a50034 !important;
   outline: 0;
@@ -124,17 +124,17 @@ body.microsite ol li ul li {
   list-style: inherit;
 }
 
-body.microsite ul {
+body.microsite ul.lista {
   list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
-  padding-left: 12px;
+  padding-left: 40px;
 }
 
-body.microsite ul li {
+body.microsite ul.lista li {
   font-size: 16px;
   color: #5d5c5c;
   margin: 10px 0px;
   text-align: left;
-  list-style: AUTO;
+  list-style: inherit;
   padding-left: 12px;
 }
 
@@ -329,7 +329,7 @@ body.microsite .row-fluid .controls-row [class*="span"] + [class*="span"] {
 }
 
 body.microsite .row-fluid .span1 {
-  width: calc((1*100%)/12);
+  width: calc((1* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,14 +344,14 @@ body.microsite .row-fluid .span1.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span1 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span2 {
-  width: calc((2*100%)/12);
+  width: calc((2* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,14 +366,14 @@ body.microsite .row-fluid .span2.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span2 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span3 {
-  width: calc((3*100%)/12);
+  width: calc((3* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,14 +388,14 @@ body.microsite .row-fluid .span3.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span3 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span4 {
-  width: calc((4*100%)/12);
+  width: calc((4* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,14 +410,14 @@ body.microsite .row-fluid .span4.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span4 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span5 {
-  width: calc((5*100%)/12);
+  width: calc((5* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,14 +432,14 @@ body.microsite .row-fluid .span5.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span5 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span6 {
-  width: calc((6*100%)/12);
+  width: calc((6* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,14 +454,14 @@ body.microsite .row-fluid .span6.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span6 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span7 {
-  width: calc((7*100%)/12);
+  width: calc((7* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -476,14 +476,14 @@ body.microsite .row-fluid .span7.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span7 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span8 {
-  width: calc((8*100%)/12);
+  width: calc((8* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -498,14 +498,14 @@ body.microsite .row-fluid .span8.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span8 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span9 {
-  width: calc((9*100%)/12);
+  width: calc((9* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,14 +520,14 @@ body.microsite .row-fluid .span9.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span9 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span10 {
-  width: calc((10*100%)/12);
+  width: calc((10* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,14 +542,14 @@ body.microsite .row-fluid .span10.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span10 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span11 {
-  width: calc((11*100%)/12);
+  width: calc((11* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -564,14 +564,14 @@ body.microsite .row-fluid .span11.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span11 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 body.microsite .row-fluid .span12 {
-  width: calc((12*100%)/12);
+  width: calc((12* 100%) / 12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,7 +586,7 @@ body.microsite .row-fluid .span12.down {
 
 @media (max-width: 768px) {
   body.microsite .row-fluid .span12 {
-    width: calc((12*100%)/12);
+    width: calc((12 * 100%) / 12);
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
