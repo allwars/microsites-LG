@@ -21,9 +21,28 @@
 
 <head>
 
-	<!-- Google Tag Manager code -->
 
-	<script src="/es/posventa/js/google-tag-manager.js" defer></script>
+
+	<script type='text/javascript'>
+		window.smartlook||(function(d) {
+		  var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+		  var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+		  c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+		  })(document);
+		  smartlook('init', '0f220c4e67822a9f7fe6bf7d69260b788e35f6b6');
+	  </script>
+
+
+
+	  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-W99SRK5');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- <script src="/es/posventa/js/google-tag-manager.js" defer></script> -->
 	<script src="/es/posventa/js/customjs.js" defer></script>
 
 	<!-- default code -->
@@ -56,20 +75,17 @@
 	<!-- //css -->
 
 	<jsp:include page="/WEB-INF/jsp/gpCommon/includes/headerScript.jsp" />
-	<script type='text/javascript'>
-		window.smartlook||(function(d) {
-		  var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-		  var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-		  c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-		  })(document);
-		  smartlook('init', '0f220c4e67822a9f7fe6bf7d69260b788e35f6b6');
-	  </script>
+	
 
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W99SRK5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
-	<noscript src="/es/poventa/js/google-tag-manager-nscript.js" defer></noscript>
+	<!-- <noscript src="/es/poventa/js/google-tag-manager-nscript.js" defer></noscript> -->
 
 	<c:import url="/WEB-INF/jsp/gpCommon/includes/bodyTop.jsp" charEncoding="utf-8">
 		<c:param name="title" value="${headerTitle}" />
