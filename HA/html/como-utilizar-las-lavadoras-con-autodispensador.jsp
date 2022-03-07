@@ -136,10 +136,8 @@
 										<tr>
 											<td>① Detergente líquido <br>
 												② Detergente líquido o suavizante</td>
-										</tr>
-										<tr>
 											<td>③ Compartimento manual de detergente (líquido o polvo)
-											</td>
+												</td>
 										</tr>
 									</tbody>
 								</table>
@@ -148,12 +146,21 @@
 							<div class="col-12">
 								<table class="table">
 									<tbody>
-										<tr>
-											<td>
+										<tr style="    -webkit-align-content: stretch;
+										-ms-flex-line-pack: stretch;
+										align-content: center;
+										-webkit-align-items: stretch;
+										-ms-flex-align: stretch;
+										align-items: center;
+										display: flex;
+										justify-content: space-around;
+										border-top: 1px solid #dee2e6;
+										border-bottom: 1px solid #dee2e6;">
+											<td style="    border: none;">
 												<img src="/es/mp-resources/images/posventa/guias-y-soluciones/lavado-secado/como-utilizar-las-lavadoras-con-autodispensador/image3.png"
 													class="img-fluid w-50 mx-auto d-block" alt="...">
 											</td>
-											<td>
+											<td style="    border: none;">
 												① Botón para configurar el depósito 1 <br>
 												② Botón para configurar el depósito 2
 											</td>

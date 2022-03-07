@@ -1,5 +1,6 @@
 /*** Custom CSS for microsites ***/
-@import url(https://wwwstg.lg.com/es/posventa/css/css/bootstrap.css);
+@import url(https://www.lg.com/es/posventa/css/css/bootstrap.css);
+
 
 html {
   scroll-behavior: smooth;
@@ -126,6 +127,11 @@ body.microsite {
       ul {
         li {
           list-style: inherit;
+          font-size: 14px;
+          margin: 10px 0px;
+          text-align: left;
+          list-style: inherit;
+          padding-left: 12px;
         }
       }
     }
@@ -137,8 +143,7 @@ body.microsite {
       padding-left: 40px;
 
       li {
-        font-size: 16px;
-        color: #5d5c5c;
+        font-size: 14px;
         margin: 10px 0px;
         text-align: left;
         list-style: inherit;
@@ -172,8 +177,7 @@ body.microsite {
       }
 
       li {
-        font-size: 16px;
-        color: #5d5c5c;
+        font-size: 14px;
         margin: 10px 0px;
         text-align: left;
         list-style: inherit;

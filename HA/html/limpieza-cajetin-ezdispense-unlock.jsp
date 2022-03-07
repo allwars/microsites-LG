@@ -216,7 +216,7 @@ file="/WEB-INF/jsp/gpCommon/includes/pageTop.jsp"%>
                         cualquier residuo.
                       </li>
                       <li>
-                        No use jabón cuando limpie el cajón y los insertos.
+                        No use jabón cuando limpie el cajón y las válvulas.
                         <img src="/es/mp-resources//images/posventa/microsites/lavado-secado/limpieza-cajetin-ezdispense-unlock/image4.png"
                         class="img-fluid w-50 mx-auto d-block" alt="...">
                       </li>
